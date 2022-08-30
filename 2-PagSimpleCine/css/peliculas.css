@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-image: url('../img/ticket.jpg');
+    height: 10vh;
+    object-fit:initial;
+    opacity: .75;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header a{
+    text-decoration: none;
+    font-size: 26px;
+    color: #fbfaf6;
+    padding-left: 20px;
+}
+
+.header .iconos{
+    color: #fbfaf6;
+    padding-right: 20px;    
+}
+
+.iconos i{
+    padding-left: 10px;
+    font-size: 20px;
+    transition: .5s all;
+}
+
+.iconos i:hover{
+    color: #fa212a;
+}
+
+.pelicula{
+    display: flex;
+    padding: 5% 5% 10% 10%;
+    /* border: 1px solid #fa212a; */
+}
+
+.pelicula img{
+    width: 180px;
+    height: 250px;
+}
+
+.pelicula .descripcion{
+    flex: 1 2 auto;
+    margin: 0 5% 0 5%;
+}
+
+.descripcion label{
+    font-size: 25px;
+}
+
+.descripcion p{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.descripcion a{
+    padding: 10px 25px 10px 25px;
+    text-decoration: none;
+    border: 2px solid #fa212a;
+    color: #fa212a;
+    background: none;
+    border-radius: 20px;
+    transition: .5s all;
+}
+
+.descripcion a:hover{
+    border:none;
+    background: #fa212a;
+    color:#fbfaf6;
+}
+
+.pelicula .critica{
+    flex: 1 1 auto;
+}
+
+.critica{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* border: 1px solid seagreen; */
+    align-items: center;
+}
+.critica img{
+    width: 200px;
+    height: 40px;
+}
+.descripcion p{
+    text-align: justify;
+}
+
+.back{
+    border: 2px solid #fa212a;
+    color:#fa212a;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    width: 100px;
+
+    text-decoration: none;
+    display:flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 90%; 
+    transition: .5s all;   
+}
+
+.back:hover{
+    background: #fa212a;
+    color: #fbfaf6;
+    border: none;
+}
+
+.footer{
+    background-image: url('../img/ticket.jpg');
+    height: 100px;
+    margin-top: 60px;
+}
+
+.footer p{
+    color:#fbfaf6;
+    text-align:center;
+    padding-top: 70px;
+}
