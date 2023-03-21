@@ -6,6 +6,7 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
+  - [Links](#links)
   - [Built with](#built-with)
   - [Author](#author)
 
@@ -22,6 +23,12 @@ Users should be able to:
 ![](./design/screenshot.png)
 
 ![](./design/screenshot-mobile.png)
+
+
+### Links
+
+- Solution URL: [Add solution URL here](https://github.com/AraMilagros/Proyectos-varios-HTML-CSS-JS/tree/main/4-SummaryComponent)
+- Live Site URL: [Add live site URL here](https://sumary-component.netlify.app/)
 
 
 ### Built with
