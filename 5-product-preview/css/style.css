@@ -1,0 +1,157 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+main{
+    background: hsl(30, 38%, 92%);
+    height: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-preview{
+    /* border: 3px solid white; */
+    width: 300px;
+    height: 450px;
+    border-radius: 10px 0 0 10px;
+    background-image: url('../img/image-product-desktop.jpg');
+    background-size: cover;
+}
+
+.detalle{
+    width: 300px;
+    height: 450px;
+
+    /*top der bottom izq*/
+    padding: 30px 40px 20px 30px;
+    background: hsl(0, 0%, 100%);
+    border-radius: 0 10px 10px 0;
+
+}
+
+h3, p, .detalle div span:last-child{
+    color:hsl(228, 12%, 48%);
+}
+
+.detalle h3{
+    letter-spacing: .5cap;
+    font-weight: 500;
+}
+
+.detalle h1{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: 'Fraunces';
+    width: 200px;
+}
+
+.detalle p{
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    width: 270px;
+}
+
+.precios{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+}
+
+.detalle div span:first-child{
+    font-family: 'Fraunces';
+    font-size: 28px;
+    font-weight: 700;
+    color:hsl(158, 36%, 37%);
+    margin-left: 5px;
+
+
+}
+
+.detalle div span:last-child{
+    text-decoration: line-through;
+    margin-left: 15px;
+}
+
+.btn-cart{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 100%;
+
+    margin-top: 30px;
+    background: hsl(158, 36%, 37%);
+    border-radius: 10px;
+    border: none;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+
+.btn-cart img{
+    padding-right: 12px;
+}
+
+.btn-cart:hover{
+    cursor: pointer;
+    background:  hsl(212, 21%, 14%);
+}
+
+
+@media(max-width: 480px){
+
+    main{
+        flex-direction: column;
+        height: max-content;
+        /* border: 2px solid red; */
+    }
+
+    .img-preview{
+        border-radius: 10px 10px 0 0;
+        width: 90%;
+        height: 100%;
+        min-height: 50vh;
+        background-image: url('../img/image-product-mobile.jpg');
+        background-size: cover;
+        background-position: center;
+        margin-top: 20px;
+        /* border: 2px solid darkblue; */
+    }
+
+    .detalle{
+        border-radius: 0 0 10px 10px;
+        width: 90%;
+        padding: 20px 15px 10px 20px;
+        height: auto;
+        /* border: 2px solid black; */
+    }
+
+    .detalle h1{
+        /* border: 2px solid red; */
+        width: auto;
+        margin-left: 0;
+        padding: 5px;
+    }
+
+    .detalle h3{
+        font-size: small;
+    }
+
+    .detalle p{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: auto;
+        padding: 10px;
+        font-size: small;
+
+    }
+
+    .btn-cart{
+        margin-top: 15px;
+    }
+    
+}
