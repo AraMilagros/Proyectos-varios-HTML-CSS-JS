@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+main{
+    border: 2px solid black;
+    background: hsl(216, 12%, 8%);
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 370px;
+    padding: 30px;
+
+    border-radius: 30px;
+    background: hsl(213, 19%, 18%);
+    /* border: 2px solid white; */
+}
+
+#icn-start{
+    margin-bottom: 25px;
+    padding: 12px 14px;
+    border-radius: 50%;
+    width: max-content;
+    background: hsl(215, 12%, 22%);
+}
+
+.section-text{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.section-text h1{
+    margin-bottom: 15px;
+    color: hsl(0, 0%, 100%);
+}
+
+.section-text p{
+    /* color:  hsl(216, 12%, 54%); */
+    color: hsl(217, 12%, 63%);
+    line-height: 1.6;
+}
+
+.puntos{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.btn-puntos{
+    border: none;
+    border-radius: 50%;
+    padding: 15px 20px;
+}
+
+.btn-noClick{
+    color: hsl(216, 12%, 54%);
+
+    background: hsl(215, 12%, 22%);
+}
+
+.btn-click{
+    background:  hsl(216, 12%, 54%);
+    color: hsl(0, 0%, 100%);
+}
+
+.btn-puntos:hover{
+    cursor: pointer;
+    background: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
+#btn-submit{
+    border-radius: 30px;
+    border: none;
+    padding: 10px;
+    background: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    /* font-weight: 500; */
+    letter-spacing: .2ch;
+    
+    /* border: 2px solid red; */
+    width: 100%;
+}
+
+#btn-submit:hover{
+    cursor: pointer;
+    color: hsl(25, 97%, 53%);
+    background: hsl(0, 0%, 100%);
+}
+
+
+/*ESTILOS PARA CARDS DE THANKS*/
+
+.card-msj{
+
+    text-align: center;
+    padding: 40px;
+}
+
+.imgn{
+    margin-bottom: 20px;
+}
+
+.imgn img{
+    width: 50%;
+}
+
+.imgn p{
+    /* border: 1px solid white; */
+    width: max-content;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    padding: 5px;
+    border-radius: 30px;
+    color: hsl(25, 97%, 53%);
+    background: hsl(215, 12%, 22%);
+}
+
+.text h1{
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 10px;
+}
+
+.text p{
+    color: hsl(217, 12%, 63%);
+    line-height: 1.5;
+
+}
+
+.oculto{
+    display: none;
+}
+
+@media(max-width: 480px){
+
+    .card{
+        width: 90vw;
+    }
+
+    .puntos{
+        flex-wrap: wrap;
+    }
+}
