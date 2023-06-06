@@ -134,7 +134,7 @@ body {
         position: fixed;
         left: 0;
         top: 0;
-        min-height: 100vh;
+        /* min-height: 100vh; */
         width: 35vw;
         background-color: rgb(88, 88, 88, 50%);
     }
@@ -145,7 +145,7 @@ body {
         left: 35vw;
         top: 0;
         width: 65vw;
-        min-height: 100%;
+        /* min-height: 100%; */
         background: white;
         padding: 10% 5%;
         display: flex;
@@ -174,7 +174,7 @@ body {
         background-image: url('../img/image-web-3-mobile.jpg');
         background-position: center;
         background-size: cover;
-        min-height: 30vh;
+        /* min-height: 30vh; */
     }
 
     /* RESPOSIVE */
@@ -228,7 +228,7 @@ body {
     .content-main {
         display: grid;
         grid-template-columns: repeat(3, 33%);
-        grid-template-rows: repeat(3, auto);
+        grid-template-rows: repeat(3, max-content);
         gap: 1.5em;
         justify-content: space-around;
     }
@@ -239,11 +239,15 @@ body {
         min-height: 300px;
         grid-column-start: 1;
         grid-column-end: 3;
+
+        grid-row-start: 1;
+        grid-row-end: 2;
+    
     }
 
     #aside {
         /* width: 360px; */
-        height: 520px;
+        /* height: 520px; */
         grid-column-start: 3;
         grid-column-end: 4;
         grid-row-start: 1;
@@ -253,7 +257,7 @@ body {
     }
 
     .article-item{
-        padding-top: 12%;
+        /* padding-top: 12%; */
         padding-bottom: 7%;
     }
 
@@ -277,7 +281,7 @@ body {
         grid-column-start: 2;
         grid-column-end: 3;
         /* width: 400px; */
-        height: max-content;
+        /* height: max-content; */
     }
 
     .description button:hover{
@@ -296,6 +300,5 @@ body {
 
     .top-item img{
         width: 100px;
-        border:2px solid red;
     }
 }
