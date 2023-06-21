@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+}
+
+main{
+    background: hsl(217, 54%, 11%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body{
+    background: hsl(216, 50%, 16%);
+    border:1px solid black;
+    width: 400px;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.img-equi, .content-img{
+    width: 350px;
+    height: 350px;
+    border-radius: 15px;
+}
+
+
+.content-img{
+    background-image: url('../img/icon-view.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#h1{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color:hsl(0, 0%, 100%);
+}
+
+.description-h1{
+    margin-bottom: 10px;
+    color:hsl(215, 51%, 70%);
+}
+
+.price-time{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid hsl(215, 32%, 27%);
+}
+
+.price, .time{
+    display: flex;
+    align-items: center;
+}
+
+.price{
+    color: hsl(178, 100%, 50%);
+}
+
+.time, .description{
+    color: hsl(215, 51%, 70%);
+}
+
+.price > img, .time > img, .creator > img{
+    padding-right: 8px;
+}
+
+.creator{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.creator > img{
+    width: 45px;
+}
+
+.description strong{
+    color:hsl(0, 0%, 100%);
+}
+
+#footer{
+    color: hsl(178, 100%, 50%);
+    font-size: 12px;
+    margin: auto;
+    /* align-self:stretch; */
+}
+
+@media screen and ((min-width: 320px) and (max-width: 480px)) {
+
+    .card-body{
+        width: 300px;
+        padding: 10px;
+    }
+    
+    .img-equi, .content-img{
+        width: 280px;
+        height: 280px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .img-equi:hover{
+        cursor: pointer;
+        opacity: .4;
+    }
+    .content-img:hover{
+        background-color: hsl(178, 100%, 50%, .7);
+        transition: .5 all ease;
+    }
+    
+    #h1:hover, .description > strong:hover{
+        cursor: pointer;
+        color: hsl(178, 100%, 50%);
+    }
+    
+}
