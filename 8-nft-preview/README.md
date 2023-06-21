@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/AraMilagros/Proyectos-varios-HTML-CSS-JS/tree/main/8-nft-preview)
+- Live Site URL: [Add live site URL here](https://nft-preview90.netlify.app)
 
 ### Built with
 
