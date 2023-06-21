@@ -150,7 +150,7 @@ h2{
     
 }
 
-.iconos div i{
+.iconos img{
     padding: 0 0 0 30px;
 }
 
@@ -158,11 +158,13 @@ h2{
     margin-top: 20px;
     
 }
-
+/* 
 .iconos i{
     font-size: 75px;
+} */
+.iconos img{
+    width: 75px;
 }
-
 /*PRODUCTO VARIOS*/
 .producto-varios img{
     width: 200px;
@@ -208,7 +210,9 @@ h2{
 .contacto form{
     margin: 50px 20px 0 20px;
 }
-
+.contacto img{
+    width: 30px;
+}
 .datos{
     display: flex;
     justify-content: center;
@@ -272,49 +276,12 @@ form textarea::placeholder{
     margin-top: 10px;
 }
 
-.contacto-iconos{
-    font-size: 25px;
-    transition: 0.5s;
-}
-
-.contacto-iconos i{
-    margin: 20px;
-}
-
-.fa-facebook:hover{
-    color: blue;
-    font-size: 30px;
-}
-
-.fa-instagram:hover{
-    color:red;
-    font-size: 30px;
-}
-
-.fa-whatsapp:hover{
-    color: green;
-    font-size: 30px;
-}
 
 /*ATAJO*/
 .atajo{
     background: #edece2;
     text-align: end;
     padding: 50px 20px 10px 0;
-}
-
-.atajo a{
-    text-decoration: none;
-    color:black;
-}
-.atajo i{
-    cursor: pointer;
-    font-size: 35px;
-    transition: 0.5s;
-}
-
-.atajo i:hover{
-    font-size: 40px;
 }
 
 /*FOOTER*/
@@ -388,17 +355,9 @@ tablet max-width: 1024px
         text-align: center;
     }
 
-    .iconos i{
-        margin: auto;
-    }
-
     .contenido{
         text-align:inherit;
     }
-
-    /* .contenido h4{
-        text-align: center;
-    } */
 
     .producto-varios{
         display: flex;
