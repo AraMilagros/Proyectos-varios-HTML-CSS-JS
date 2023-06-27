@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here]()
-- Live Site URL: [Add live site URL here]()
+- Solution URL: [Add solution URL here](https://github.com/AraMilagros/Proyectos-varios-HTML-CSS-JS/tree/main/9-advice-generator)
+- Live Site URL: [Add live site URL here](https://advice-random99.netlify.app/)
 
 
 ### Built with
