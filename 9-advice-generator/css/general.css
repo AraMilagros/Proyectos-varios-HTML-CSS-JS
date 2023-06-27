@@ -56,6 +56,7 @@ label{
 .content-divider-btn{
     position: relative;
     top:20px;
+    
 }
 
 .random-btn{
@@ -65,6 +66,9 @@ label{
     border-radius: 50%;
     border: none;
     cursor: pointer;
+    margin: auto;
+    display: flex;
+    
 }
 .random-btn:hover{
     box-shadow: 0 0 30px 10px var(--difuminadoBtn);
@@ -89,6 +93,5 @@ label{
         width: 80vw;
         margin-left: auto;
         margin-right: auto;
-        /* border:2px solid white; */
     }
 }
