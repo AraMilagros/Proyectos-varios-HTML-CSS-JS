@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background: rebeccapurple;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.content-tarjeta{
+    /* border:2px solid red; */
+    width: 450px;
+    height: max-content;
+    padding: 2.5em 1.5em;
+
+    background: white;
+    border-radius: 15px;
+}
+
+.title-tarjeta{
+    /* border:2px solid blue; */
+    display: flex;
+    margin-bottom: 1em;
+}
+
+h1{
+    display: flex;
+}
+
+.title-tarjeta h1::before{
+    content: '';
+    background-image: url('../img/icon-star.svg');
+    background-size: 25px 25px;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    margin: auto;
+    padding-left: .3em;
+}
+/* titulo del acordion */
+.title-item{
+    border:2px solid green;
+    cursor: pointer;
+    padding: .5em;
+    margin:.5em 0;
+}
+p{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.title-item p::after{
+    content:'';
+    background-image: url('../img/icon-minus.svg');
+    background-size: 1em 1em;
+    width: 1em;
+    height: 1em;
+    /* border:2px solid red; */
+}
+
+/* descripcion */
+.description-item{display: none;}
+.description-item.active{
+    display: block;
+    /* border:2px solid blue; */
+    padding: .5em;
+    color: gray;
+}
